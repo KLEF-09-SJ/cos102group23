@@ -1,0 +1,18 @@
+{
+  "name": "real-time-voting-system",
+  "version": "1.0.0",
+  "description": "Real-time voting system using Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Student Projects",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "open": "^8.4.2",
+    "socket.io": "^4.8.1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}

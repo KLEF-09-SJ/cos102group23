@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🗳 Real-Time Voting System</h1>
+
+<p>Select your favorite programming language:</p>
+
+<div class="buttons">
+    <button onclick="vote('JavaScript')">JavaScript</button>
+    <button onclick="vote('Python')">Python</button>
+    <button onclick="vote('Java')">Java</button>
+    <button onclick="vote('C++')">C++</button>
+</div>
+
+<p id="status"></p>
+
+<h2>📊 Live Results</h2>
+<div id="results"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>  
